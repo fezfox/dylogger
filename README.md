@@ -9,7 +9,7 @@ It allows you to look back at your journal and think:
 
  *"Oh, I was reading that book back then, and listening to those songs. This is what I posted on Instagram, this is how many photos I took with my phone, this is a movie I watched."*
 
-It is inspired by [siffter](http://craigeley.com/01-07-2014/sifttter-an-ifttt-to-day-one-logger/) by Craig Eley and [Gifttdy](http://giftttdy.gadgetcoma.com) by GadgetComa. The former is written in ruby, and must be run on a schdule daily, whereas the latter is triggered by hazel. Both write DayOne entries directly into dropbox.
+It is inspired by [siffter](http://craigeley.com/01-07-2014/sifttter-an-ifttt-to-day-one-logger/) by Craig Eley and [Gifttdy](http://giftttdy.gadgetcoma.com) by GadgetComa. The former is written in ruby, and must be run on a schedule daily, whereas the latter is triggered by hazel. Both write DayOne entries directly into dropbox.
 
 ![](/images/ss_dayone.png)
 
