@@ -9,7 +9,7 @@ It allows you to look back at your journal and think:
 
  *"Oh, I was reading that book back then, and listening to those songs. This is what I posted on Instagram, this is how many photos I took with my phone, this is a movie I watched."*
 
-It is inspired by [siffter](http://craigeley.com/01-07-2014/sifttter-an-ifttt-to-day-one-logger/) by Craig Eley and [Gifttdy](http://giftttdy.gadgetcoma.com) by GadgetComa. The former is written in ruby, and must be run on a schedule daily, whereas the latter is triggered by hazel. Both write DayOne entries directly into dropbox.
+It is inspired by [siffter](http://craigeley.com/01-07-2014/sifttter-an-ifttt-to-day-one-logger/) by Craig Eley and [Gifttdy](http://giftttdy.gadgetcoma.com) by GadgetComa. The former is written in ruby, and must be run on a schedule daily, whereas the latter is triggered by hazel. Both write DayOne entries directly into dropbox. Dylogger is a combination of the two - that is, its written in ruby (because AppleScript is very hard to change, maintain or understand - at least for me!) and run on a triggered basis using hazel... coz I like it that way.
 
 ![](/images/ss_dayone.png)
 
@@ -24,9 +24,9 @@ It is inspired by [siffter](http://craigeley.com/01-07-2014/sifttter-an-ifttt-to
 ###Installation
 * Place the dylogger.rb script wherever you like. It needs to be given permissioon to be executable. So you need to navigate to its location using terminal and then type
     
-    chmod +x dylogger.rb
+        chmod +x dylogger.rb
 
-    (Ruby is installed by default in OSX Mavericks and Yosemite. If you have an older version of OSX you will need to isntall ruby)
+    (Ruby is installed by default in OSX Mavericks and Yosemite. If you have an older version of OSX you will need to install ruby. Just google it.)
 * Decide where your text and json files will be located. I use ~/Dropbox/Apps/IFTTT/dylogger but could be anywhere.
 * Setup hazel rules for this folder for txt and json files
 
