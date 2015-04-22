@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 # DYLOGGER 0.9: An IFTTT-to-Day One Logger by Chris Jones
-# Based on sifffter by Craig Eley 2014 <http://craigeley.com>
+# Based on sifffter by Craig Eley 2014 <http://craigeley.com/01-07-2014/sifttter-an-ifttt-to-day-one-logger/>
 # and giftttdy by Leon/GadgetComa <http://giftttdy.gadgetcoma.com/>
 #
 # Notes:
@@ -141,8 +141,8 @@ ENTRYTEMPLATE
 
       #p entry_data
 
-      # if format is "service", always create a new entry
-      if entry_data['format'].chomp.strip.downcase=='service'
+      # if format is "service" or "single", always create a new entry
+      if ['service','single'].include?(entry_data['format'].chomp.strip.downcase)
         entry_data['uuid'] = uuid= %x{uuidgen}.gsub(/-/,'').strip
         entry_data['is_service'] = true
         entry_data['text_only'] = true
