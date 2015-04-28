@@ -22,7 +22,7 @@ It is inspired by [siffter](http://craigeley.com/01-07-2014/sifttter-an-ifttt-to
 ![](/images/dylogger_flow.png)
 
 ###Installation
-* Place the dylogger.rb script wherever you like. It needs to be given permissioon to be executable. So you need to navigate to its location using terminal and then type
+* Place the dylogger.rb script wherever you like. It needs to be given permission to be executable. So you need to navigate to its location using terminal and then type
     
         chmod +x dylogger.rb
 
@@ -46,7 +46,7 @@ The text files can come from many sources. Presently I generate them via [IFTTT]
 IFTTT can be used to create entries such as music tracks played on spotify (via track "scrobbling" performed by [last.fm](http://last.fm)), books read on [GoodReads](http://goodreads.com) and much more.
 
 ###Text file formats
-One of the strengths of dylogger is that you can use a multitude of sources to create the structured text adn files it works on (and hopefully in the future, json files other than reporter files will be supported). You simply need to know the format, and get your source to produce the text file in this format.
+One of the strengths of dylogger is that you can use a multitude of sources to create the structured text and files it works on (and hopefully in the future, json files other than reporter files will be supported). You simply need to know the format, and get your source to produce the text file in this format.
 
 The text files contain 6 pieces of data, separated by three "pipes" |||. For example:
 
